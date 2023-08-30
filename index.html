@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Vendor Management Form</title>
+</head>
+<body>
+  <header>
+    <h1>Vendor Management Form</h1>
+  </header>
+  <main>
+    <form id="vendor-form">
+      <label for="vendor-name">Vendor Name:</label>
+      <input type="text" id="vendor-name" name="vendorName" required>
+
+      <label for="vendor-email">Vendor Email:</label>
+      <input type="email" id="vendor-email" name="vendorEmail" required>
+
+      <label for="vendor-phone">Vendor Phone:</label>
+      <input type="tel" id="vendor-phone" name="vendorPhone" required>
+
+      <label for="vendor-category">Vendor Category:</label>
+      <select id="vendor-category" name="vendorCategory">
+        <option value="food"></option>
+        <option value="electronics">Electronics</option>
+        <option value="clothing">Clothing</option>
+        <!-- Add more options as needed -->
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>
